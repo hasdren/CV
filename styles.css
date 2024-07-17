@@ -1,0 +1,87 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --link-color: #4a76ee;
+    --background-color: #eeeff1;
+    --text-color: #1a1c20;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+
+.container {
+    padding: 0 64px;
+    width: 100%;
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+.stack .cells-container {
+    display:flex;
+    flex-wrap:wrap;
+    gap: 40px;
+    text-align: center;
+}
+
+.stack .cells .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d3d3d3d3;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.stack .cells .cell img {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+}
+nav .left {
+    font-size: 22px;
+    font-weight: 600
+}
+nav .right {
+}
+
+.about {
+    display: flex;
+    gap: 32px;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 600px;
+}
+.about-description{
+    max-width: 100%;
+}
+.stack h3{
+    text-align: center;
+}
+
+.cells-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.skills-text {
+    text-align: center;
+}
